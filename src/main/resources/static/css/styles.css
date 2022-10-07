@@ -1,0 +1,43 @@
+body {
+    padding: 1.5rem;
+}
+.flexed {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 1em;
+}
+label {
+    display: inline-block;
+    width: 140px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+h2 {
+    padding: 2rem;
+}
+h1 {
+    color: lightseagreen;
+}
+
+.login, .register {
+    text-align: center;
+}
+
+.card {
+    width: 200px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+table {
+    width: 800px !important;
+    margin: 0 auto;
+}
+
+.review-card {
+    border: 5px solid lightseagreen;
+    padding: 2rem;
+}
+
